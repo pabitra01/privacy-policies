@@ -51,6 +51,13 @@
         display: inline-block;
       }
 
+      h3 {
+        font-size: 15px;
+        color: #2d3436;
+        margin-top: 18px;
+        margin-bottom: 8px;
+      }
+
       p,
       li {
         color: #555;
@@ -65,6 +72,10 @@
 
       li {
         margin-bottom: 6px;
+      }
+
+      a {
+        color: #6c5ce7;
       }
 
       .highlight {
@@ -88,104 +99,192 @@
         color: #999;
         text-align: center;
       }
+
+      @media (max-width: 520px) {
+        body {
+          padding: 12px;
+        }
+
+        .container {
+          padding: 24px 20px;
+        }
+      }
     </style>
   </head>
 
   <body>
     <div class="container">
       <h1>Privacy Policy</h1>
-      <p class="subtitle">ClassMate App | Last updated: March 3, 2026</p>
+      <p class="subtitle">ClassMate App | Last updated: November 21, 2026</p>
 
       <div class="highlight">
         <p>
-          <strong>ClassMate is a fully offline app.</strong> All your data stays
-          on your device. We do not collect, store, or transmit any personal
-          information to external servers.
+          <strong>Your study data stays on your device.</strong> ClassMate has
+          no account and no server of its own. Your timetable, attendance,
+          homework, exams, notes and grades never leave your phone unless you
+          export them yourself. ClassMate is free because it shows ads from
+          Google AdMob, and Google collects some device data to show those ads
+          (see section 4).
         </p>
       </div>
 
-      <h2>1. Information We Collect</h2>
+      <h2>1. Information Stored on Your Device</h2>
       <p>
-        ClassMate does <strong>not</strong> collect any personal data. The app
-        stores the following information
-        <strong>locally on your device only</strong>:
+        ClassMate stores the following
+        <strong>locally on your device only</strong>. We (the developer) never
+        receive it:
       </p>
       <ul>
-        <li>Class timetable and schedule</li>
-        <li>Homework assignments and their status</li>
-        <li>Exam dates and details</li>
-        <li>Personal notes</li>
-        <li>Grade records and GPA calculations</li>
+        <li>Subjects, class timetable and holidays</li>
+        <li>Attendance records and extra classes</li>
+        <li>Homework, exams and their reminders</li>
+        <li>Personal notes and grade records</li>
         <li>
-          Study material file references (file paths/URIs only — files are not
-          copied)
+          Study material file references (file links only; files are not copied
+          or uploaded)
         </li>
-        <li>Subject names and colors</li>
-        <li>App preferences and settings</li>
+        <li>Focus timer sessions and study time</li>
+        <li>Your name (if you enter one), app preferences and settings</li>
+        <li>
+          Ad settings such as when an ad was last shown and when an ad-free
+          period ends
+        </li>
       </ul>
 
-      <h2>2. Data Storage</h2>
+      <h2>2. Data Storage and Backups</h2>
       <p>
-        All data is stored in a local SQLite database on your device. No data is
-        transmitted over the internet. No cloud storage or synchronization is
-        used.
+        Study data is kept in a local database on your device. There is no
+        cloud storage or synchronization. If you create a backup or export a
+        PDF or CSV file, it is saved or shared only where you choose (for
+        example your Files app or a chat app), and what happens to it there is
+        up to you.
       </p>
 
       <h2>3. Data Sharing</h2>
       <p>
-        We do <strong>not</strong> share, sell, or transmit any of your data to
-        third parties. Since all data is stored locally, only you have access to
-        it.
+        We do <strong>not</strong> collect, sell or share your study data. The
+        only data that leaves your device is the device and usage data that
+        Google's advertising service collects to show ads, described below.
       </p>
 
-      <h2>4. Third-Party Services</h2>
+      <h2>4. Advertising (Google AdMob)</h2>
       <p>
-        ClassMate does not integrate with any third-party analytics,
-        advertising, or tracking services. The app functions entirely offline.
+        ClassMate shows ads using the Google Mobile Ads SDK (Google AdMob). To
+        show, measure and limit ads, and to prevent fraud, Google may collect:
+      </p>
+      <ul>
+        <li>Your device's advertising ID</li>
+        <li>IP address, which can indicate approximate location</li>
+        <li>Device information such as model, Android version and language</li>
+        <li>
+          Interactions with ads (for example views and taps) and app
+          performance and diagnostic data
+        </li>
+      </ul>
+      <p>
+        This data is sent to Google, not to us, and is handled under
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener"
+          >Google's Privacy Policy</a
+        >. You can read how Google uses data from apps that show its ads at
+        <a
+          href="https://policies.google.com/technologies/partner-sites"
+          target="_blank"
+          rel="noopener"
+          >policies.google.com/technologies/partner-sites</a
+        >. Ads in ClassMate are limited to content Google rates as suitable for
+        teens.
       </p>
 
-      <h2>5. File Access</h2>
+      <h3>Consent (EEA, UK and Switzerland)</h3>
       <p>
-        The Study Materials feature allows you to pick files using Android's
-        built-in file picker (Storage Access Framework). The app stores only the
-        file reference (URI) — it does not copy, upload, or modify your files in
-        any way.
+        If you are in a region where the law requires it, ClassMate asks for
+        your consent through Google's consent tool before personalized ads are
+        shown. You can change your choice at any time in
+        <strong>ClassMate → Settings → Ad privacy choices</strong>. If you do
+        not consent, you may still see non-personalized or limited ads.
       </p>
 
-      <h2>6. Children's Privacy</h2>
+      <h3>Your ad controls</h3>
+      <ul>
+        <li>
+          Reset or delete your advertising ID, or opt out of personalized ads,
+          in your phone's settings (usually Settings → Privacy → Ads, or
+          Settings → Google → Ads).
+        </li>
+        <li>
+          Watch one short video on the More screen to turn off all ads for 24
+          hours.
+        </li>
+      </ul>
+
+      <h2>5. Permissions</h2>
+      <ul>
+        <li>
+          <strong>Internet and network state:</strong> only to load ads and
+          the consent form. Your study data is never sent over the internet.
+        </li>
+        <li>
+          <strong>Advertising ID:</strong> used by Google AdMob as described
+          above.
+        </li>
+        <li>
+          <strong>Notifications, exact alarms and start on boot:</strong> to
+          remind you about classes, homework and exams, and to keep reminders
+          working after a restart.
+        </li>
+        <li><strong>Vibration:</strong> for reminder and focus timer alerts.</li>
+      </ul>
+
+      <h2>6. File Access</h2>
       <p>
-        ClassMate is designed for students of all ages. Since we do not collect
-        any personal data or communicate with external servers, the app is safe
-        for users under 13 years of age. We comply with the Children's Online
-        Privacy Protection Act (COPPA).
+        The Study Materials feature lets you pick files using Android's
+        built-in file picker. The app stores only a link to the file (its URI).
+        It does not copy, upload or change your files.
       </p>
 
-      <h2>7. Data Deletion</h2>
+      <h2>7. Children's Privacy</h2>
       <p>
-        Since all data is stored locally on your device, you can delete all app
-        data at any time by:
+        ClassMate is intended for students aged 13 and over and is not
+        directed at children under 13. We do not knowingly collect personal
+        information from children under 13. If you believe a child under 13 is
+        using the app, you can delete all of its data as described in section
+        8, and contact us with any questions.
+      </p>
+
+      <h2>8. Data Deletion</h2>
+      <p>
+        Because your study data is stored only on your device, you can delete
+        it at any time by:
       </p>
       <ul>
         <li>
-          Clearing the app data from Android Settings → Apps → ClassMate → Clear
-          Data
+          Clearing the app data in Android Settings → Apps → ClassMate →
+          Storage → Clear data
         </li>
         <li>Uninstalling the app (this permanently removes all data)</li>
       </ul>
-
-      <h2>8. Changes to This Policy</h2>
       <p>
-        We may update this Privacy Policy from time to time. Any changes will be
-        reflected on this page with an updated date. Continued use of the app
-        after changes constitutes acceptance of the revised policy.
+        Data collected by Google for advertising is managed by Google. You can
+        reset your advertising ID as described in section 4, or use
+        <a href="https://myadcenter.google.com" target="_blank" rel="noopener"
+          >My Ad Center</a
+        >
+        to manage ad personalization for your Google account.
       </p>
 
-      <h2>9. Contact Us</h2>
+      <h2>9. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be
+        posted on this page with an updated date. Continued use of the app
+        after changes means you accept the revised policy.
+      </p>
+
+      <h2>10. Contact Us</h2>
       <p>
         If you have any questions about this Privacy Policy, please contact us
         at:
       </p>
-      <p><strong>Email:</strong>pabi.studio.dev@gmail.com</p>
+      <p><strong>Email:</strong> pabi.studio.dev@gmail.com</p>
 
       <div class="footer">© 2026 ClassMate. All rights reserved.</div>
     </div>
